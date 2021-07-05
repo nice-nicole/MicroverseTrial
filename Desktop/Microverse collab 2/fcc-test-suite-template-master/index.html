@@ -11,15 +11,16 @@
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
+      <fieldset>
       
-      <label id="name-label" for="name">Name</label>
+      <label id="name-label" for="name">Name</label><br>
       <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
       <br>
     
-      <label id="email-label" for="email">Email</label>
+      <label id="email-label" for="email">Email</label><br>
       <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
       <br>
-      <label id="number-label" for="number">Age (optional)</label>
+      <label id="number-label" for="number">Age (optional)</label><br>
       <input type="number" id="number" name="number"  placeholder="Age" min="5" max="100">
     <br>
     <label>Which option best describes your current role?</label> 
@@ -35,9 +36,9 @@
       <br>
       <p>Would you recommend freeCodeCamp to a friend?</p>
       
-       <label><input type="radio" value="def" name="gender">Definitely</label>
+       <label><input type="radio" value="def" name="gender">Definitely</label><br>
       
-       <label> <input type="radio" value="maybe" name="gender">Maybe</label>
+       <label> <input type="radio" value="maybe" name="gender">Maybe</label><br>
        <label> <input type="radio" value="not sure" name="gender">Not sure</label>
 
        <br>
@@ -60,6 +61,7 @@
         <br>
         
        <button type="submit" id="submit"> Submit</button>
+      </fieldset>
     </form>
   </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

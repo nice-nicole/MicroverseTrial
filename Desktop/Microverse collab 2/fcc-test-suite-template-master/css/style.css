@@ -1,0 +1,10 @@
+body{
+    background-image: url(../images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
